@@ -24,6 +24,7 @@ class Triangle
     else
       if (a + b) <= c
         raise TriangleError
+      end
     end
   end
   
