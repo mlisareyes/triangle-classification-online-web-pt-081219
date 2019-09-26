@@ -19,12 +19,7 @@ class Triangle
       a != b && b != c
         :scalene
     elsif
-      a <= 0 || b <= 0 | c <= 0
-        raise TriangleError
-    else
-      if (a + b) <= c
-        raise TriangleError
-      end
+     raise TriangleError
     end
   end
   
