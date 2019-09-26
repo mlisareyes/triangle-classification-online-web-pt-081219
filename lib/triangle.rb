@@ -23,7 +23,7 @@ class Triangle
         raise TriangleError
     else
       if (a + b) <= c
-      raise TriangleError
+        raise TriangleError
     end
   end
   
